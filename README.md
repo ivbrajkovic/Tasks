@@ -20,4 +20,6 @@ Web application require only FS an ExpressJS modules.
 
 ## Task 6
 
-### Task 7
+Made hamburger icon using only HTML and CSS. It depends on 3 main classes: glass, straw and burger. The HTML for the icon consists of one div element with 3 more nested div elements. For this I used pseudo elements, absolute positioning and multiple shadows.
+
+## Task 7
