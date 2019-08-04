@@ -1,0 +1,102 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+::before,
+::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.icon {
+  position: relative;
+  height: 300px;
+  width: 300px;
+}
+
+.icon::after {
+  position: absolute;
+  top: 255px;
+  left: 20px;
+  width: 260px;
+  content: '';
+  border-bottom: 14px solid #000;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.glass {
+  position: absolute;
+  width: 120px;
+  height: 60px;
+  top: 70px;
+  left: 20px;
+  color: #000;
+  background-color: transparent;
+  border: 12px solid #000;
+  -webkit-transform: perspective(15) rotatex(-1deg);
+          transform: perspective(15) rotatex(-1deg);
+  -webkit-box-shadow: 0px 60px 0px 0px #000, 0px 120px 0px 0px #000, 0px 150px 0px 0px #000;
+          box-shadow: 0px 60px 0px 0px #000, 0px 120px 0px 0px #000, 0px 150px 0px 0px #000;
+}
+
+.straw {
+  position: absolute;
+  top: 30px;
+  left: 110px;
+  height: 80px;
+  width: 80px;
+  border-top: 13px solid #000;
+  border-top-left-radius: 25px 20px;
+}
+
+.straw:after {
+  position: absolute;
+  top: -4px;
+  left: -10px;
+  height: 90px;
+  width: 80px;
+  content: '';
+  border-left: 13px solid #000;
+  border-top-left-radius: 45px 10px;
+  -webkit-transform: skewx(-15deg);
+          transform: skewx(-15deg);
+}
+
+.hamburger {
+  position: absolute;
+  top: 140px;
+  left: 143px;
+  height: 110px;
+  width: 130px;
+  border-top: 30px solid #000;
+  border-bottom: 30px solid #000;
+  border-radius: 30px;
+}
+
+.hamburger::before {
+  position: absolute;
+  top: 7px;
+  left: -2px;
+  height: 35px;
+  width: 35px;
+  content: '';
+  background: #000;
+  border-radius: 30px;
+  -webkit-box-shadow: 25px 0px 0px 0px #000, 50px 0px 0px 0px #000, 75px 0px 0px 0px #000, 100px 0px 0px 0px #000;
+          box-shadow: 25px 0px 0px 0px #000, 50px 0px 0px 0px #000, 75px 0px 0px 0px #000, 100px 0px 0px 0px #000;
+}
