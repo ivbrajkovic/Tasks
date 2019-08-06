@@ -21,6 +21,12 @@ It also contain a **simple animation**.
 
 ## Task 5
 
+Tracking typing speed in word per second (WPS).
+It does not track the whole lenght of text area, but only the curent typing word.
+It assume a word lenght of **5 chars**, it start tracking when first char is presed
+(escluding **delete** and **backspace** keys) and keep tracking until 5 chars are elapsed,
+then show the result on page.
+
 ## Task 6
 
 Made hamburger icon using only HTML and CSS. It depends on 3 main classes: glass, straw and burger. Icon is made of **only three DOM elements** nested in one div container. For this task I used pseudo elements, absolute positioning and multiple shadows.
