@@ -16,7 +16,8 @@ Web application require only **FS** an **ExpressJS** modules.
 
 ## Task 4
 
-Made a responsive banner using flex box and grid container, it has only **35Kb with all files** and index.html included! It also contain a **simple animation**.
+Made a responsive banner using flex box and grid container, it has only **35Kb with all files** and index.html included!
+It also contain a **simple animation**.
 
 ## Task 5
 
