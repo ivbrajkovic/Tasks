@@ -16,6 +16,8 @@ Web application require only FS an ExpressJS modules.
 
 ## Task 4
 
+Made a responsive banner using flex box and grid container,
+
 ## Task 5
 
 ## Task 6
