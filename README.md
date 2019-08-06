@@ -22,7 +22,7 @@ It also contain a **simple animation**.
 ### Task 5 - Typing Speed - JS (Basic)
 
 Tracking typing speed in word per second (WPS).
-It does not track the whole lenght of text area, but only the curent typing word.
+It does not track the whole lenght of text area, but only the curent word as the user is typing.
 It assume a word lenght of **5 chars**, it start tracking when first char is presed
 (escluding **delete** and **backspace** keys) and keep tracking until 5 chars are elapsed,
 then show the result on page.
