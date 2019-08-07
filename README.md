@@ -4,7 +4,7 @@ Description of the solution
 
 ### Task 2 - BoxResizing - React
 
-There is a container that vertically and horizontally centers its contents and it contains a div with a grid layout. This grid has two columns and two rows. In main content of grid layout there is a box with apsolute position with height and width default set to 250px. Its dimenssion can be changed sliding ranges sliders or entering a number betwean 1-500. In case of incorect value back of input became red.
+Main app is an div element container that vertically and horizontally centers its contents, whitch is div element with a grid layout. This grid has two columns and two rows. In main content of grid layout there is a box with apsolute position with height and width default set to 250px. Its dimenssion can be changed with two custom react components. This customcomponent is made of one slider range and one input textbox. Slider and input text accept only numbers betwean 1-500. In case of incorect value back of input text became red and no changes are made to box size.
 
 ### Task 2 - BoxResizing - VanillaJS (main.min.js - 886 bytes)
 
