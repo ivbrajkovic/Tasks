@@ -2,11 +2,13 @@
 
 Description of the solution
 
-### Task 2 - BoxResizing
+### Task 2 - BoxResizing - React
 
 There is a container that vertically and horizontally centers its contents and it contains a div with a grid layout. This grid has two columns and two rows. In main content of grid layout there is a box with apsolute position with height and width default set to 250px. Its dimenssion can be changed sliding ranges sliders or entering a number betwean 1-500. In case of incorect value back of input became red.
 
-Made with pure Javascript (Vanilla JS), only **76 line of code including comments!**
+### Task 2 - BoxResizing - VanillaJS (main.min.js - 886 bytes)
+
+Same as the previous task, but made with pure Javascript (Vanilla JS), only **76 lines of code including comments!**, minified only **886 bytes**. Frameworks are good but not always the best solution!
 
 ### Task 3 - Routes - NodeJS (Basic)
 

@@ -135,8 +135,8 @@ body {
 
 .grid .right input[type='range'] {
   left: -100px;
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  -webkit-transform: rotate(90deg) rotateY(180deg);
+          transform: rotate(90deg) rotateY(180deg);
 }
 
 .grid .right input[type='text'] {
